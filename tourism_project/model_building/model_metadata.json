@@ -1,0 +1,97 @@
+{
+  "model_family": "XGBoost",
+  "decision_threshold": 0.3138067424297333,
+  "selection_metric": "f1",
+  "cv_f1": 0.7820700385395644,
+  "test_metrics_tuned": {
+    "accuracy": 0.925280199252802,
+    "precision": 0.7810650887573964,
+    "recall": 0.8516129032258064,
+    "f1": 0.8148148148148148,
+    "roc_auc": 0.9548685782556751
+  },
+  "test_metrics_default": {
+    "accuracy": 0.9389788293897883,
+    "precision": 0.863013698630137,
+    "recall": 0.8129032258064516,
+    "f1": 0.8372093023255814,
+    "roc_auc": 0.9548685782556751
+  },
+  "feature_order": [
+    "Age",
+    "TypeofContact",
+    "CityTier",
+    "DurationOfPitch",
+    "Occupation",
+    "Gender",
+    "NumberOfPersonVisiting",
+    "NumberOfFollowups",
+    "ProductPitched",
+    "PreferredPropertyStar",
+    "MaritalStatus",
+    "NumberOfTrips",
+    "Passport",
+    "PitchSatisfactionScore",
+    "OwnCar",
+    "NumberOfChildrenVisiting",
+    "Designation",
+    "MonthlyIncome"
+  ],
+  "categorical_features": [
+    "TypeofContact",
+    "Occupation",
+    "Gender",
+    "ProductPitched",
+    "MaritalStatus",
+    "Designation"
+  ],
+  "numeric_features": [
+    "Age",
+    "CityTier",
+    "DurationOfPitch",
+    "NumberOfPersonVisiting",
+    "NumberOfFollowups",
+    "PreferredPropertyStar",
+    "NumberOfTrips",
+    "Passport",
+    "PitchSatisfactionScore",
+    "OwnCar",
+    "NumberOfChildrenVisiting",
+    "MonthlyIncome"
+  ],
+  "category_levels": {
+    "TypeofContact": [
+      "Company Invited",
+      "Self Enquiry"
+    ],
+    "Occupation": [
+      "Free Lancer",
+      "Large Business",
+      "Salaried",
+      "Small Business"
+    ],
+    "Gender": [
+      "Female",
+      "Male"
+    ],
+    "ProductPitched": [
+      "Basic",
+      "Deluxe",
+      "King",
+      "Standard",
+      "Super Deluxe"
+    ],
+    "MaritalStatus": [
+      "Divorced",
+      "Married",
+      "Single"
+    ],
+    "Designation": [
+      "AVP",
+      "Executive",
+      "Manager",
+      "Senior Manager",
+      "VP"
+    ]
+  }
+}
