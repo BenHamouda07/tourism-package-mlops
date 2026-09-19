@@ -3,5 +3,5 @@ numpy
 scikit-learn
 xgboost>=2.1.4
 joblib
-mlflow
+mlflow==2.19.0
 huggingface_hub
